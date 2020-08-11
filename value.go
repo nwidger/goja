@@ -1,13 +1,13 @@
 package goja
 
 import (
-	"hash/maphash"
 	"math"
 	"reflect"
 	"strconv"
 	"unsafe"
 
 	"github.com/dop251/goja/ftoa"
+	"github.com/dop251/goja/maphash"
 	"github.com/dop251/goja/unistring"
 )
 

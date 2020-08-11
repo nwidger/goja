@@ -1,7 +1,7 @@
 package goja
 
 import (
-	"hash/maphash"
+	"github.com/dop251/goja/maphash"
 )
 
 type mapEntry struct {

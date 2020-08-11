@@ -5,7 +5,6 @@ import (
 	"errors"
 	"fmt"
 	"go/ast"
-	"hash/maphash"
 	"math"
 	"math/bits"
 	"math/rand"
@@ -17,6 +16,7 @@ import (
 	"golang.org/x/text/collate"
 
 	js_ast "github.com/dop251/goja/ast"
+	"github.com/dop251/goja/maphash"
 	"github.com/dop251/goja/parser"
 	"github.com/dop251/goja/unistring"
 )

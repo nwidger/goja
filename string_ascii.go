@@ -2,13 +2,13 @@ package goja
 
 import (
 	"fmt"
-	"hash/maphash"
 	"io"
 	"math"
 	"reflect"
 	"strconv"
 	"strings"
 
+	"github.com/dop251/goja/maphash"
 	"github.com/dop251/goja/unistring"
 )
 
